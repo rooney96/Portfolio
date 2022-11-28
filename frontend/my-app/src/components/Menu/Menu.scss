@@ -1,8 +1,11 @@
+@import "../global.scss";
+
 .menu{
     width: 20%;
     height: 100vh;
     margin-left: calc(100vw - 20%);
-    background-color: #4353ff;
+    background-color: $secondaryColor;
+    border-radius: 20px;
     align-items: center;
     position: fixed;
     right: -20%;
@@ -20,16 +23,19 @@
         padding: 0;
         list-style: none;
         font-size: 35px;
-        color: white;
+        color:  $primaryColor;
         font-weight: 200;
         width: 80%;
 
     }
     li {
         margin-bottom: 50px;
+        text-align: center;
+
         a{
             font-size: inherit;
             color: inherit;
+            font-family: "eurostile", sans-serif;
             text-decoration: none;
         }
 

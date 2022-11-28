@@ -1,0 +1,16 @@
+@import "../global.scss";
+
+.Experience{
+
+    overflow-y: hidden;
+    background-color: $primaryColor;
+    h4{
+        margin-bottom: 6px;
+    }
+
+    ul{
+        list-style-type:  lower-latin;
+        padding: 2px 10px;
+        font-size: 16px;
+    }
+}
