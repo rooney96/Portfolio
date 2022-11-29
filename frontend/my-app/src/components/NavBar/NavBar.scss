@@ -90,3 +90,17 @@
     }
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .topbar{
+    height: 50px;
+  }
+
+  .home{
+    display: none !important;
+  }
+  .itemContainer{
+    display: none !important;
+  }
+
+}

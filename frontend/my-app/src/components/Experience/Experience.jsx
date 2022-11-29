@@ -17,7 +17,6 @@ export default function Experience(){
                     className="Education"
                     contentStyle={{ background: '#4169E1', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="2016 - 2021"
                     iconStyle={{ background: '#4169E1', color: '#fff' }}
 
                     icon={<SchoolIcon />}
@@ -29,7 +28,7 @@ export default function Experience(){
                 <VerticalTimelineElement
                     className="Internship"
                     iconStyle={{ background: '#3bedb7', color: '#fff' }}
-                    contentStyle={{ background: '#3bedb7', color: '#fff' }}
+                    contentStyle={{ background: '#3bedb7', color: '#000' }}
                     icon={<ComputerIcon />}
                 >
                     <h3 className="job-title">Production Engineer Intern <br/> july 2020 - October 2020</h3>

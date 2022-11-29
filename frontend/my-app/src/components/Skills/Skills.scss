@@ -25,7 +25,6 @@
         align-items: center;
 
         .icon{
-            color: bla;
             font-size: 40px;
         }
         .title{
@@ -40,6 +39,31 @@
             color: $secondaryColor;
             font-size: 20px;
         }
+
+        .frontend_tools{
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            margin-bottom: 30px;
+
+            ul{
+                align-content: center;
+                display: inline;
+                padding: 0px;
+
+                li{
+                    height: 30px;
+                    width: 300px;
+                }
+                li:hover{
+                    font-size: 25px;
+                }
+            }
+        }
+
         .tools{
             font-size: 20px;
             text-align: center;
@@ -70,10 +94,7 @@
         flex-direction: column;
         align-items: center;
 
-        .icon{
-            color: bla;
-            font-size: 40px;
-        }
+
         .title{
             margin-bottom: 20px;
             font-family: "eurostile", sans-serif;
@@ -149,5 +170,30 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .icon{
+        font-size: 30px !important;
+    }
+    .aws_icon{
+        size: 40 !important;
+    }
+    .title{
+        font-size: 20px !important;
+        margin-bottom: 5px !important;
+    }
+    .paragraph{
+        margin-bottom: 5px !important;
+        font-size: 15px !important;
+    }
+    .tools{
+        font-size: 15px !important;
+        margin-bottom: 5px !important;
+    }
+    .frontend_tools{
+        font-size: 15px !important;
+        margin-bottom: 5px !important;
     }
 }

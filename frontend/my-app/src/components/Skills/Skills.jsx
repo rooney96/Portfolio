@@ -11,9 +11,11 @@ export default function Skills(){
                 <div><ComputerIcon className="icon" /></div>
                 <div className="title"> Web Development </div>
                 <div className="paragraph"> Front End Development </div>
-                <div className="tools">
+                <div className="frontend_tools">
                     <ul>
-                        <li> React js, HTML, CSS, Sass </li>
+                        <li> React js </li>
+                        <li> HTML </li>
+                        <li>CSS</li>
                     </ul>
                 </div>
                 <div className="paragraph"> Application Programming Interface </div>
@@ -42,7 +44,9 @@ export default function Skills(){
 
             </div>
             <div className="DevOps">
-                <div><Mail className="icon" /></div>
+                <div className="icon">
+                    <img src={require('../../assets/devops.png')}/>
+                </div>
                 <div className="title"> DevOps </div>
                 <div className="paragraph"> Experienced in DevOps principals and tools</div>
                 <div className="tools">
@@ -57,7 +61,7 @@ export default function Skills(){
                 </div>
             </div>
             <div className="Cloud">
-                <div><AWSIcon className="icon"  size={80}/></div>
+                <div><AWSIcon className="aws_icon"  size={80}/></div>
                 <div className="title"> Cloud Computing Platform </div>
                 <div className="paragraph">  Experienced in Cloud Computing Platform (AWS) services</div>
                 <div className="tools">

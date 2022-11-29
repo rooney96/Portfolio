@@ -14,3 +14,9 @@
         font-size: 16px;
     }
 }
+
+@media only screen and (max-width: 760px) {
+    .VerticalTimeline{
+        max-height: 100% !important;
+    }
+}
