@@ -34,9 +34,9 @@ export default function Experience(){
                     <h3 className="job-title">Production Engineer Intern <br/> july 2020 - October 2020</h3>
                     <h4 className="job-discription">Meta Platforms</h4>
                     <p style={{ 'font-size': '17px'}}>
-                        Executed project under monitoring of Meta experienced engineer.
+                        Worked on a project under mintoring of Meta experienced engineer.
                         The project was to build an analyzer which aimed to improve the debugging experience,
-                        By displaying analysis when alert pops up.
+                        By displaying analysis when alert is fired.
                         Once an alert is fired the analyzer runs and gather data from different resources
                         and displays what could be the issue.
                     </p>
