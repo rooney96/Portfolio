@@ -18,12 +18,14 @@
         align-items: center;
         align-content: center;
         margin-top: 60px;
+        height: 400px;
+        width: 400px;
+
+
 
         img{
             border: 10px solid $primaryColor;
             border-radius: 50%;
-            height: 380px;
-            width: 400px;
         }
     }
 
@@ -46,6 +48,7 @@
             .instagram{
                 margin-right: 10px;
                 color: $secondaryColor;
+
             }
             .linkedin{
                 margin-right: 10px;
@@ -95,13 +98,19 @@
 @media only screen and (max-width: 760px) {
     .hi{
         overflow-y: hidden;
+        font-size: 15px !important;
+        margin: 0 0 5px 0 !important;
     }
     .gifContainer{
         overflow-y: hidden;
-        margin-top: 30px;
+        margin-top: 15px !important;
+        height: 250px !important;
+        width: 250px !important;
     }
+
     .socialMediaIcons{
         overflow-y: hidden;
+        margin: 0 0 5px 0 !important;
     }
     .textContainer{
         width: 100% !important;
@@ -109,11 +118,22 @@
     .name{
         overflow-y: hidden;
         width: 100% !important;
+        font-size: 20px !important;
+        margin: 0 0 5px 0 !important;
+        height: 30px !important;
 
+    }
+    .job{
+        font-size: 15px !important;
+        margin: 0 0 5px 0 !important;
+        overflow-y: hidden !important;
     }
 
     .cvButton{
-        width: 60% !important;
+        width: 40% !important;
+        font-size: 10px !important;
+        height: 35px !important;
+        overflow-y: hidden !important;
     }
 
 }

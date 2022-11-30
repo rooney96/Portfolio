@@ -61,7 +61,7 @@ export default function Skills(){
                 </div>
             </div>
             <div className="Cloud">
-                <div><AWSIcon className="aws_icon"  size={80}/></div>
+                <div><AWSIcon className="aws_icon"  size={60}/></div>
                 <div className="title"> Cloud Computing Platform </div>
                 <div className="paragraph">  Experienced in Cloud Computing Platform (AWS) services</div>
                 <div className="tools">

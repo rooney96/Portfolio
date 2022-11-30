@@ -173,27 +173,92 @@
     }
 }
 
+
 @media only screen and (max-width: 1200px) {
+
+
+    .WebDev{
+        height: 100% !important;
+        .icon{
+            margin-bottom: 15px !important;
+        }
+
+        .paragraph{
+            margin-bottom: 10px !important;
+            font-size: 10px !important;
+        }
+
+        .frontend_tools{
+            margin-bottom: 10px !important;
+            ul{
+
+
+                li{
+                    height: 15px !important;
+                    font-size: 10px !important;
+                }
+                li:hover{
+                    font-size: 15px;
+                }
+            }
+        }
+        .tools{
+            margin-bottom: 5px !important;
+            ul{
+
+
+                li{
+                    height: 15px !important;
+                    font-size: 10px !important;
+                }
+                li:hover{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .DevOps{
+        height: 100% !important;
+    }
+
+    .Cloud{
+        height: 100% !important;
+
+    }
+
     .icon{
-        font-size: 30px !important;
+        font-size: 25px !important;
+        overflow-y: hidden !important;
+        margin-bottom: 10px !important;
     }
-    .aws_icon{
-        size: 40 !important;
-    }
+
     .title{
-        font-size: 20px !important;
+        font-size: 10px !important;
         margin-bottom: 5px !important;
+        overflow-y: hidden !important;
     }
     .paragraph{
         margin-bottom: 5px !important;
-        font-size: 15px !important;
+        font-size: 10px !important;
     }
     .tools{
-        font-size: 15px !important;
+        font-size: 10px !important;
         margin-bottom: 5px !important;
+
+        ul{
+            font-size: 10px !important;
+            text-align: center;
+            margin-bottom: 5px !important;
+
+            li{
+                height: 30px !important;
+                width: 200px !important;
+                font-size: 10px !important;
+            }
+            li:hover{
+                font-size: 15px !important;
+            }
+        }
     }
-    .frontend_tools{
-        font-size: 15px !important;
-        margin-bottom: 5px !important;
-    }
+
 }

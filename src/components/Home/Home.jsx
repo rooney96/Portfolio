@@ -22,15 +22,15 @@ export default function Home(){
                 <div className="socialMediaIcons">
                     <a href="https://www.facebook.com/rooney.shaer"
                         className="fb">
-                        <FontAwesomeIcon icon={faFacebook} size="2x" />
+                        <FontAwesomeIcon icon={faFacebook} size="xl" />
                     </a>
                     <a href="https://www.instagram.com/roney_sh/"
                         className="instagram">
-                        <FontAwesomeIcon icon={faInstagram} size="2x" />
+                        <FontAwesomeIcon icon={faInstagram} size="xl" />
                     </a>
                     <a href="https://www.linkedin.com/in/rony-shaer-593830197/"
                         className="linkedin">
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                        <FontAwesomeIcon icon={faLinkedin} size="xl" />
                     </a>
 
                 </div>
