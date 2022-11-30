@@ -2,7 +2,7 @@
   "homeage": "https://rooney96.github.io/Portfolio",
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
